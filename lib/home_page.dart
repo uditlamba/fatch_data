@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
      builder: (controller) {
        return Scaffold(
                 appBar: AppBar(
-                  title: const Text("Get Data "),
+                  title: const Text("Get Data"),
                   backgroundColor: Colors.blue,
                 ),
                 body: controller.apiData.isEmpty? const Center(child: Text('No data found')):
